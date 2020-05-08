@@ -12,36 +12,18 @@ prompt takes an input from user through `prompt` and stores it in `user_choice` 
 ##### This part of the code compels the user to take an input between rock,paper or scissors #####
 
 `    while user_choice not in ['r', 'p', 's', 'q']:
-        user_choice =input(prompt) `
+        user_choice =input(prompt)`
 
 ----
 
 ##### This part of the code defines the computer's move using `random.choice()` #####
 
-`    if user_choice == 'q':
-        break
-    else:
-        computer_choice = random.choice(['r', 'p', 's'])
-        if computer_choice == 'r':
-            move = 'rock'
-        elif computer_choice == 'p':
-            move = 'paper'
-        else:
-            move = 'scissors'
-        print('Computer gives a '+ ''+ move)  `
+<img src="walkthrough_images/computermove.png">
+
 ----
 
 ##### This part of the code shows the result and stores the output until you press `'q'` #####
 
-`        if computer_choice == user_choice:
-            print('Draw!')
-            draws += 1
-        elif(computer_choice == 'r' and user_choice == 'p') or \
-            (computer_choice == 'p' and user_choice == 's') or \
-            (computer_choice == 's' and user_choice == 'r'):
-            print('You win!')
-            wins += 1
-        else:
-            print('You lost!!!')
-            losses += 1  `
+<img src="walkthrough_images/result.png">
+
 ----
