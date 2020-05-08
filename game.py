@@ -30,3 +30,4 @@ while True:
         else:
             print('You lost!!!')
             losses += 1
+print("You have " +str(wins) + ' wins, '+str(draws)+ ' draws, and '+ str(losses)+ ' losses.')

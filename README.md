@@ -27,3 +27,8 @@ prompt takes an input from user through `prompt` and stores it in `user_choice` 
 <img src="walkthrough_images/result.png">
 
 ----
+
+
+#### Have fun playing! ####
+
+
