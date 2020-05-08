@@ -4,10 +4,10 @@ prompt takes an input from user through `prompt` and stores it in `user_choice` 
 
 ### You (user) can pick between four things  ###
 
-    *Rock if you press `r`
-    *Paper if you press `p`
-    *Scissors if you press `s`
-    *Quit the game if you press `r`
+    * Rock if you press `r`
+    * Paper if you press `p`
+    * Scissors if you press `s`
+    * Quit the game if you press `r`
 
 ##### This part of the code compels the user to take an input between rock,paper or scissors #####
 
